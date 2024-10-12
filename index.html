@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="img"><img src="prajwal.jpeg" alt="Prajwal Adkine's Photo" class="circular-photo"></div>
+        <div class="home-content">
+            
+           
+        </div>
+        <div class="name"> 
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi! I'm PRAJWAL ADKINE.</p>
+        </div>
+        
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Prajwal Adkine. 
+            Pursuing BCA (Bachlor of Computer Application) from GH Raisoni college, Nagpur. Subjects from my college as I am in 1st year - DBMS, DMS, C, etc.
+        My own I started the Web Development because it is very interesting and for that I have completed the HTML full syllabus and now going through CSS and short term goal to complete Java script as need for front end web development.
+        My aim is to become full stack web developer and I am working for it.
+        </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Projects</h2>
+        <div class="portfolio-item">
+            <a href="https://drive.google.com/drive/folders/1cU09lmoOvL9eic5XgFYQ9CmBQ_xn-7tw?usp=drive_link">Practice 1</a>
+            
+            <p>Above are some practiced files of HTML</p>
+        </div>
+        <div class="portfolio-item">
+           <a href="https://drive.google.com/drive/folders/1yaDXFUHX-KpA-Kc_HPd9rZi_1Ov7w3iR?usp=sharing">Practice 2</a>
+            
+            <p>Above are some practiced files of CSS</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>

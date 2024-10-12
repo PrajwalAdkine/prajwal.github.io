@@ -1,0 +1,135 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Home Section */
+#home {
+    background: url('') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(29, 21, 21);
+    text-align: top;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+#home p {
+    font-size: 1.5rem;
+    margin-left: 25px;
+
+}
+
+/* About Section */
+#about {
+    padding: 2rem;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 2rem;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin-bottom: 2rem;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-item h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 1rem;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#contact-form button {
+    padding: 0.5rem 2rem;
+    background: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background: #f4f4f4;
+}
+
+/* Circular photo styling */
+.circular-photo {
+    width: 359px;
+  height: 395px;      /* Adjust the size as needed */
+          /* Ensure width and height are the same for a circle */
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid rgb(8, 8, 8); /* Optional: Add a border around the circle */
+    object-fit: cover;  /* Ensures the image fits within the circle without distortion */
+}
+
+.name{
+    margin-left: 20px;
+}
+
